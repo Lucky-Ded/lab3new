@@ -23,26 +23,9 @@ namespace l3n
 
             if (ch == '-') Console.WriteLine("{0}", a - b);
 
-            //считывание данных о нажатой клавиши 
-            ConsoleKeyInfo key = Console.ReadKey();
-
-            //получение символа нажатой клавиши (если возможно) 
-            char ch = key.KeyChar;
-
             if (ch == '+') Console.WriteLine("{0}", a + b);
 
-           ConsoleKeyInfo key = Console.ReadKey();
-
-            char ch = key.KeyChar;
-
             if (ch == '*') Console.WriteLine("{0}", a * b);
-
-            //считывание данных о нажатой клавиши 
-            ConsoleKeyInfo key = Console.ReadKey();
-
-            //получение символа нажатой клавиши (если возможно) 
-            char ch = key.KeyChar;
-
 
             if (ch == '/') Console.WriteLine("{0}", a / b);
 
