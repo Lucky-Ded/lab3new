@@ -10,6 +10,13 @@ namespace l3n
     {
         static void Main(string[] args)
         {
+            Console.Write("Enter A: ");
+            int a = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter B: ");
+            int b = int.Parse(Console.ReadLine());
+
+            Console.ReadKey();
         }
     }
 }
