@@ -22,6 +22,7 @@ namespace l3n
             char ch = key.KeyChar;
 
             if (ch == '-') Console.WriteLine("{0}", a - b);
+
             Console.ReadKey();
         }
     }
