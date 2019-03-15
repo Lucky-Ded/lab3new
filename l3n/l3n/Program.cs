@@ -31,6 +31,12 @@ namespace l3n
 
             if (ch == '+') Console.WriteLine("{0}", a + b);
 
+           ConsoleKeyInfo key = Console.ReadKey();
+
+            char ch = key.KeyChar;
+
+            if (ch == '*') Console.WriteLine("{0}", a * b);
+
             Console.ReadKey();
         }
     }
