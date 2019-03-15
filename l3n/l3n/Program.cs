@@ -15,7 +15,13 @@ namespace l3n
 
             Console.Write("Enter B: ");
             int b = int.Parse(Console.ReadLine());
+            //считывание данных о нажатой клавиши 
+            ConsoleKeyInfo key = Console.ReadKey();
 
+            //получение символа нажатой клавиши (если возможно) 
+            char ch = key.KeyChar;
+
+            if (ch == '-') Console.WriteLine("{0}", a - b);
             Console.ReadKey();
         }
     }
